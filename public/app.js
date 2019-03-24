@@ -1,9 +1,6 @@
 import BoilerplateReactComponent from '../src/main';
 import ReactDOM from 'react-dom';
 import React from 'react';
-
-console.log(BoilerplateReactComponent);
-
 import './assets/style.scss';
 
 class App extends React.Component {

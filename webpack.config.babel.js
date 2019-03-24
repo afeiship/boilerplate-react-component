@@ -2,12 +2,12 @@ import webapck from 'webpack';
 import { resolve } from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 export default (inEnv) => {
-  console.log('env dis...');
   return {
     entry: {
-      index: './example/app.js'
+      index: './public/app.js'
     },
     output: {
       filename: './assets/bundle.[hash].js'
@@ -21,7 +21,12 @@ export default (inEnv) => {
         },
         {
           test: /\.scss$/,
-          use: ['style-loader', 'css-loader', 'sass-loader']
+          use: [
+            'style-loader',
+            MiniCssExtractPlugin.loader,
+            'css-loader',
+            'sass-loader'
+          ]
         }
       ]
     },
@@ -31,7 +36,11 @@ export default (inEnv) => {
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: resolve(__dirname, './example/index.ejs')
+        template: resolve(__dirname, './public/index.ejs')
+      }),
+      new MiniCssExtractPlugin({
+        filename: '[name].[contenthash].css',
+        chunkFilename: '[name].[contenthash].css'
       })
     ]
   };

@@ -4,4 +4,8 @@ $boilerplate-react-component-options: () !default;
   color: #000;
   border: 4px dashed #ccc;
   padding: 20px;
+  &:hover {
+    border-color: #ddd;
+    background: #f3f3f3;
+  }
 }
