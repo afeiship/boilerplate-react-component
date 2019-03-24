@@ -3,10 +3,9 @@ import { resolve } from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+
+// basic ENV/dispatch variable:
 const NODE_ENV = process.env.NODE_ENV;
-
-console.log('config file:->', process.env.NODE_ENV, process.argv);
-
 const externals = {
   react: 'react',
   classnames: 'classnames',
