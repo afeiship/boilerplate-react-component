@@ -3,6 +3,10 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
+
+console.log(process.cwd());
+
+
 export default (inEnv) => {
   return {
     mode: 'productoin',
@@ -37,7 +41,7 @@ export default (inEnv) => {
     },
     plugins: [
       new CleanWebpackPlugin({
-        cleanOnceBeforeBuildPatterns: ['docs']
+        cleanOnceBeforeBuildPatterns: ['./docs/*']
       }),
       new HtmlWebpackPlugin({
         template: resolve(__dirname, '../public/index.ejs')
