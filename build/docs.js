@@ -1,23 +1,28 @@
 import { resolve } from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
+// basic ENV/dispatch variable:
+const NODE_ENV = process.env.NODE_ENV;
+const externals = {
+  react: 'react',
+  classnames: 'classnames',
+  noop: 'noop',
+  'react-dom': 'react-dom',
+  'object-assign': 'object-assign',
+  'prop-types': 'prop-types'
+};
+
 export default (inEnv) => {
-  const { TYPE } = inEnv;
   return {
-    mode: 'production',
-    entry: './src/main.js',
+    mode: NODE_ENV,
+    entry: './public/index.js',
     output: {
-      filename: 'index.js'
+      path: resolve(__dirname, `../docs`),
+      filename: './assets/bundle.[hash].js'
     },
-    externals: {
-      react: 'react',
-      classnames: 'classnames',
-      noop: 'noop',
-      'react-dom': 'react-dom',
-      'object-assign': 'object-assign',
-      'prop-types': 'prop-types'
-    },
+    externals: NODE_ENV === 'production' ? externals : {},
     resolve: {
       extensions: ['.scss', '.js', '.jsx'],
       alias: {
@@ -44,7 +49,10 @@ export default (inEnv) => {
     },
     plugins: [
       new CleanWebpackPlugin({
-        cleanOnceBeforeBuildPatterns: [`../dist/${TYPE}`]
+        cleanOnceBeforeBuildPatterns: ['docs']
+      }),
+      new HtmlWebpackPlugin({
+        template: resolve(__dirname, '../public/index.ejs')
       }),
       new MiniCssExtractPlugin({
         filename: './assets/[name].[contenthash].css'
