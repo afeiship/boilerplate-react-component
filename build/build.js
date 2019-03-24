@@ -1,5 +1,6 @@
 import { resolve } from 'path';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 export default (inEnv) => {
@@ -43,9 +44,13 @@ export default (inEnv) => {
       ]
     },
     plugins: [
-      new CleanWebpackPlugin({
-        cleanOnceBeforeBuildPatterns: [`../dist/${TYPE}`]
-      }),
+      new CleanWebpackPlugin(),
+      new CopyWebpackPlugin([
+        {
+          from: './src/components/style.scss',
+          to: '.'
+        }
+      ]),
       new MiniCssExtractPlugin({
         filename: './assets/[name].[contenthash].css'
       })
