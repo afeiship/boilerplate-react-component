@@ -1,4 +1,4 @@
-import BoilerplateReactComponent from '../src/main';
+import BoilerplateReactComponent from '../src/index';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import './assets/style.scss';
