@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate-react-component",
+  "version": "1.0.0",
+  "description": "boilerplate-react-component-description.",
+  "main": "webpack.config.babel.js",
+  "scripts": {
+    "test": "none",
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/boilerplate-react-component.git"
+  },
+  "keywords": [
+    "react",
+    "component"
+  ],
+  "author": "afei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/boilerplate-react-component/issues"
+  },
+  "homepage": "https://github.com/afeiship/boilerplate-react-component#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
