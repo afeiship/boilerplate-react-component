@@ -3,26 +3,14 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
-// basic ENV/dispatch variable:
-const NODE_ENV = process.env.NODE_ENV;
-const externals = {
-  react: 'react',
-  classnames: 'classnames',
-  noop: 'noop',
-  'react-dom': 'react-dom',
-  'object-assign': 'object-assign',
-  'prop-types': 'prop-types'
-};
-
 export default (inEnv) => {
   return {
-    mode: NODE_ENV,
+    mode: 'productoin',
     entry: './public/index.js',
     output: {
       path: resolve(__dirname, `../docs`),
       filename: './assets/bundle.[hash].js'
     },
-    externals: NODE_ENV === 'production' ? externals : {},
     resolve: {
       extensions: ['.scss', '.js', '.jsx'],
       alias: {
