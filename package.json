@@ -4,10 +4,9 @@
   "description": "boilerplate-react-component-description.",
   "main": "dist/boilerplate-react-component.js",
   "scripts": {
-    "example:dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=example",
-    "example:build": "cross-env NODE_ENV=production webpack -p --env.TYPE=example",
-    "src:dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=src",
-    "src:build": "cross-env NODE_ENV=production webpack -p --env.TYPE=src",
+    "docs:build": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=example",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=dev",
+    "build": "cross-env NODE_ENV=production webpack -p --env.TYPE=build",
     "start": "node build/server.js"
   },
   "repository": {
