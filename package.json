@@ -5,7 +5,7 @@
   "main": "webpack.config.babel.js",
   "scripts": {
     "test": "none",
-    "dev": ""
+    "dev": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,25 @@
   },
   "homepage": "https://github.com/afeiship/boilerplate-react-component#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
     "prettier": "^1.16.4",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "noop": "github:afeiship/noop",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
   }
 }
