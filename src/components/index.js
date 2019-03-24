@@ -26,6 +26,10 @@ export default class extends Component {
 
   render() {
     const { className, ...props } = this.props;
-    return <div className={classNames('boilerplate-react-component', className)} {...props} />;
+    return (
+      <div className={classNames('boilerplate-react-component', className)} {...props}>
+        Hello React!
+      </div>
+    );
   }
 }

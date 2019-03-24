@@ -5,7 +5,9 @@
   "main": "webpack.config.babel.js",
   "scripts": {
     "test": "none",
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack -p --mode=production",
+    "start": "node build/server.js"
   },
   "repository": {
     "type": "git",
@@ -28,10 +30,17 @@
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.0",
+    "app-root-path": "^2.2.0",
     "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
     "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
     "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
