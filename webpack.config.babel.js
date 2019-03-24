@@ -12,6 +12,19 @@ export default (inEnv) => {
     output: {
       filename: './assets/bundle.[hash].js'
     },
+    externals: {
+      react: 'React',
+      classnames: 'classnames',
+      'prop-types': 'PropTypes',
+      'object-assign': 'ObjectAsssin',
+      'react-dom': 'ReactDOM'
+    },
+    resolve: {
+      extensions: ['.scss', '.js', '.jsx'],
+      alias: {
+        '@': resolve(__dirname, 'src')
+      }
+    },
     module: {
       rules: [
         {
@@ -29,9 +42,6 @@ export default (inEnv) => {
           ]
         }
       ]
-    },
-    resolve: {
-      extensions: ['.scss', '.js', '.jsx']
     },
     plugins: [
       new CleanWebpackPlugin(),
