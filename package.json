@@ -2,7 +2,7 @@
   "name": "boilerplate-react-component",
   "version": "1.0.0",
   "description": "boilerplate-react-component-description.",
-  "main": "dist/boilerplate-react-component.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=dev",
     "build": "cross-env NODE_ENV=production webpack -p --env.TYPE=build",
