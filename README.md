@@ -1,7 +1,7 @@
 # boilerplate-react-component
 > boilerplate-react-component-description.
 
-## example & docs:
+## docs:
 - https://afeiship.github.io/boilerplate-react-component/
 
 ## resouces:
