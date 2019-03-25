@@ -45,6 +45,7 @@
     "prettier": "^1.16.4",
     "react-testing-library": "^6.0.2",
     "sass-loader": "^7.1.0",
+    "semver-webpack-plugin": "github:afeiship/semver-webpack-plugin",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",

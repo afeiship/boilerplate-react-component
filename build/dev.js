@@ -3,6 +3,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import baseConfig from '.';
 import merge from 'webpack-merge';
 
+
 export default merge(baseConfig, {
   entry: './public/index.js',
   output: {

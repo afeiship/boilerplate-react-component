@@ -2,6 +2,7 @@ import { resolve } from 'path';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import baseConfig from '.';
 import merge from 'webpack-merge';
+import SemverWebpackPlugin from 'semver-webpack-plugin';
 
 export default merge(baseConfig, {
   entry: './src/main.js',
@@ -17,6 +18,7 @@ export default merge(baseConfig, {
     'prop-types': 'prop-types'
   },
   plugins: [
+    new SemverWebpackPlugin({ enabled: true }),
     new CopyWebpackPlugin([
       {
         from: './src/components/style.scss',
