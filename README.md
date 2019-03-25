@@ -1,5 +1,5 @@
 # boilerplate-react-component
-> boilerplate-react-component-description.
+> boilerplate-react-component-description
 
 ## install:
 ```shell
