@@ -7,7 +7,8 @@
     "docs": "cross-env NODE_ENV=production webpack -p --env.TYPE=docs",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=dev",
     "build": "cross-env NODE_ENV=production webpack -p --env.TYPE=build",
-    "start": "node build/server.js"
+    "start": "node build/server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -38,9 +39,11 @@
     "css-loader": "^2.1.1",
     "express": "^4.16.4",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.5.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
+    "react-testing-library": "^6.0.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
