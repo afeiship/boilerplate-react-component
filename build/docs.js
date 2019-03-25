@@ -38,6 +38,7 @@ export default (inEnv) => {
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
+        favicon: resolve(__dirname, '../assets/favicon.ico'),
         template: resolve(__dirname, '../public/index.ejs')
       }),
       new MiniCssExtractPlugin({
