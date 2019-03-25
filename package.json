@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=dev",
     "build": "cross-env NODE_ENV=production webpack -p --env.TYPE=build",
+    "release": "cross-env NODE_ENV=production webpack -p --env.TYPE=release",
     "docs": "cross-env NODE_ENV=production webpack -p --env.TYPE=docs",
     "start": "node build/server.js",
     "test": "jest"
@@ -14,10 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/afeiship/boilerplate-react-component.git"
   },
-  "keywords": [
-    "react",
-    "component"
-  ],
+  "keywords": ["react", "component"],
   "author": "afei",
   "license": "MIT",
   "bugs": {
