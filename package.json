@@ -41,6 +41,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
+    "rake-git": "github:afeiship/rake-git",
     "react-testing-library": "^6.0.2",
     "sass-loader": "^7.1.0",
     "semver-webpack-plugin": "github:afeiship/semver-webpack-plugin",
