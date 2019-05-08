@@ -1,5 +1,3 @@
-import { resolve } from 'path';
-import CopyWebpackPlugin from 'copy-webpack-plugin';
 import buildConfig from './build';
 import merge from 'webpack-merge';
 import SemverWebpackPlugin from 'semver-webpack-plugin';
