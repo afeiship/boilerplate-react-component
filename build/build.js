@@ -10,12 +10,12 @@ export default merge(baseConfig, {
     filename: 'index.js'
   },
   externals: {
-    react: 'react',
+    react: 'React',
     classnames: 'classnames',
     noop: 'noop',
-    'react-dom': 'react-dom',
-    'object-assign': 'object-assign',
-    'prop-types': 'prop-types'
+    'react-dom': 'ReactDOM',
+    'object-assign': 'objectAssign',
+    'prop-types': 'PropTypes'
   },
   plugins: [
     new CopyWebpackPlugin([
