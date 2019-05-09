@@ -1,12 +1,12 @@
 # boilerplate-react-component
 > boilerplate-react-component-description
 
-## install:
+## install
 ```shell
 npm install -S afeiship/boilerplate-react-component
 ```
 
-## usage:
+## usage
 1. import css
   ```scss
   @import "~boilerplate-react-component/style.scss";
@@ -33,10 +33,10 @@ npm install -S afeiship/boilerplate-react-component
   ReactDOM.render(<App/>, document.getElementById('app'));
   ```
 
-## docs:
+## documentation
 - https://afeiship.github.io/boilerplate-react-component/
 
-## resouces:
+## resouces
 - https://www.robinwieruch.de/minimal-react-webpack-babel-setup/
 - https://www.valentinog.com/blog/react-webpack-babel/
 - https://jestjs.io/docs/en/tutorial-react#snapshot-testing-with-mocks-enzyme-and-react-16
