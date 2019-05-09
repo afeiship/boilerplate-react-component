@@ -1,13 +1,13 @@
 {
   "name": "boilerplate-react-component",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.0",
   "description": "boilerplate-react-component-description",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --env.TYPE=dev",
-    "build": "cross-env NODE_ENV=production webpack -p --env.TYPE=build",
-    "release": "cross-env NODE_ENV=production webpack -p --env.TYPE=release",
-    "docs": "cross-env NODE_ENV=production webpack -p --env.TYPE=docs",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --env.type=dev",
+    "build": "cross-env NODE_ENV=production webpack -p --env.type=build",
+    "release": "cross-env NODE_ENV=production webpack -p --env.type=release",
+    "docs": "cross-env NODE_ENV=production webpack -p --env.type=docs",
     "start": "node build/server.js",
     "test": "jest"
   },
@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/afeiship/boilerplate-react-component.git"
   },
-  "keywords": ["react", "component"],
+  "keywords": [
+    "react",
+    "component"
+  ],
   "author": "afei",
   "license": "MIT",
   "bugs": {
@@ -30,6 +33,7 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.0",
     "app-root-path": "^2.2.0",
+    "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^2.0.1",
     "copy-webpack-plugin": "^5.0.2",
@@ -40,6 +44,7 @@
     "jest": "^24.5.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
     "prettier": "^1.16.4",
     "rake-git": "github:afeiship/rake-git",
     "react-testing-library": "^6.0.2",

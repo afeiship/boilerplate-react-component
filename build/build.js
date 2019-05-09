@@ -18,7 +18,6 @@ export default merge(baseConfig, {
     'prop-types': 'prop-types'
   },
   plugins: [
-    new SemverWebpackPlugin({ enabled: true }),
     new CopyWebpackPlugin([
       {
         from: './src/components/style.scss',
