@@ -18,13 +18,13 @@ npm install -S afeiship/boilerplate-react-component
   ```js
   import React from 'react';
   import ReactDOM from 'react-dom';
-  import BoilerplateReactCompnent from 'boilerplate-react-component';
+  import BoilerplateReactComponent from 'boilerplate-react-component';
   
   // your app:
   class App extends React.Component{
     render(){
       return (
-        <BoilerplateReactCompnent />
+        <BoilerplateReactComponent />
       )
     }
   }
