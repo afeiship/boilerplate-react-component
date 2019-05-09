@@ -12,7 +12,8 @@ export default {
   resolve: {
     extensions: ['.scss', '.js', '.jsx'],
     alias: {
-      '@': resolve(__dirname, '../src')
+      '@': resolve(__dirname, '../src'),
+      assets: resolve(__dirname, '../src/assets')
     }
   },
   module: {
@@ -23,13 +24,12 @@ export default {
         use: ['babel-loader']
       },
       {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'postcss-loader'
-        ]
+        test: /\.(jpe?g|png|gif|svg|ico)$/i,
+        loader: 'url-loader',
+        options: {
+          name: 'assets/images/[name]-[hash:4].[ext]',
+          limit: 10
+        }
       },
       {
         test: /\.scss$/,
@@ -46,7 +46,7 @@ export default {
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: './assets/[name].[contenthash].css'
+      filename: './assets/styles/[name].[contenthash].css'
     })
   ]
 };

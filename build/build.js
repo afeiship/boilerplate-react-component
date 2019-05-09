@@ -22,6 +22,10 @@ export default merge(baseConfig, {
       {
         from: './src/components/style.scss',
         to: '.'
+      },
+      {
+        from: './src/assets',
+        to: 'assets'
       }
     ])
   ]

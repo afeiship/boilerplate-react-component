@@ -9,4 +9,17 @@ $boilerplate-react-component-options: () !default;
     border-color: #ddd;
     background: #f3f3f3;
   }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .icon-play {
+    padding: 10px;
+    min-width: 120px;
+    background: url(~assets/images/icon-play.png) left center / 12% no-repeat;
+    &:focus {
+      outline: none;
+    }
+  }
 }

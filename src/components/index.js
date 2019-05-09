@@ -30,7 +30,10 @@ export default class extends Component {
       <div
         className={classNames('boilerplate-react-component', className)}
         {...props}>
-        Hello React!!
+        <p>
+          <button className="icon-play">PLAY</button>
+        </p>
+        <p>Hello React!!</p>
       </div>
     );
   }
