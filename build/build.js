@@ -13,9 +13,9 @@ export default merge(baseConfig, {
     react: 'React',
     classnames: 'classnames',
     noop: 'noop',
-    'react-dom': 'ReactDOM',
-    'object-assign': 'objectAssign',
-    'prop-types': 'PropTypes'
+    'react-dom': 'react-dom',
+    'object-assign': 'object-assign',
+    'prop-types': 'prop-types'
   },
   plugins: [
     new CopyWebpackPlugin([
