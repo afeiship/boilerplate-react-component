@@ -10,9 +10,9 @@ export default merge(baseConfig, {
     libraryTarget: 'umd'
   },
   externals: {
-    react: 'React',
     classnames: 'classnames',
     noop: 'noop',
+    react: 'react',
     'react-dom': 'react-dom',
     'object-assign': 'object-assign',
     'prop-types': 'prop-types'
