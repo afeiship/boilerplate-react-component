@@ -22,6 +22,7 @@ export default class extends Component {
   constructor(inProps) {
     super(inProps);
     this.state = {};
+    console.log(require('assets/images/icon-play.png'));
   }
 
   render() {
@@ -33,6 +34,7 @@ export default class extends Component {
         <p>
           <button className="icon-play">PLAY</button>
         </p>
+        <img src={require('assets/images/icon-play.png')} />
         <p>Hello React!!</p>
       </div>
     );
