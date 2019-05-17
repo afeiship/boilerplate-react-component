@@ -41,3 +41,7 @@ npm install -S afeiship/boilerplate-react-component
 - https://www.valentinog.com/blog/react-webpack-babel/
 - https://jestjs.io/docs/en/tutorial-react#snapshot-testing-with-mocks-enzyme-and-react-16
 - https://testing-library.com/docs/react-testing-library/api
+
+## todos
+- [ ] Add semver number for every build files
+- [ ] BUG: npm run dev will clean dist
