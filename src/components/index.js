@@ -5,6 +5,8 @@ import classNames from 'classnames';
 import noop from 'noop';
 import objectAssign from 'object-assign';
 
+const CLASS_NAME = 'boilerplate-react-component';
+
 export default class extends Component {
   /*===properties start===*/
   static propTypes = {
@@ -28,9 +30,7 @@ export default class extends Component {
   render() {
     const { className, ...props } = this.props;
     return (
-      <div
-        className={classNames('boilerplate-react-component', className)}
-        {...props}>
+      <div className={classNames(CLASS_NAME, className)} {...props}>
         <p>
           <button className="icon-play">PLAY</button>
         </p>
