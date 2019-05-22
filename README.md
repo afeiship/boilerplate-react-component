@@ -45,4 +45,5 @@ npm install -S afeiship/boilerplate-react-component
 ## todos
 - [ ] Add: semver number for every build files.
 - [ ] Add: need output css files.
+- [ ] Add: PWA support for docs.
 - [ ] BUG: npm run dev will clean dist.
