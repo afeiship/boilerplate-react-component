@@ -43,5 +43,6 @@ npm install -S afeiship/boilerplate-react-component
 - https://testing-library.com/docs/react-testing-library/api
 
 ## todos
-- [ ] Add semver number for every build files
-- [ ] BUG: npm run dev will clean dist
+- [ ] Add: semver number for every build files.
+- [ ] Add: need output css files.
+- [ ] BUG: npm run dev will clean dist.
