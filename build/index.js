@@ -11,5 +11,5 @@ export default {
   module: {
     rules: [loaders.babel(), loaders.image(), loaders.sass()]
   },
-  plugins: [plugins.clean(), plugins.minCssExtract()]
+  plugins: [plugins.minCssExtract()]
 };

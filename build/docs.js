@@ -5,5 +5,5 @@ import { configs, inputs, outputs, loaders, plugins } from 'webpack-lib-kits';
 export default merge(baseConfig, {
   entry: inputs.docs(),
   output: outputs.docs(),
-  plugins: [plugins.html()]
+  plugins: [plugins.clean(), plugins.html()]
 });
