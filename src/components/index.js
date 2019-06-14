@@ -27,12 +27,18 @@ export default class extends Component {
     console.log(require('assets/images/icon-play.png'));
   }
 
+  _onClick = (e) => {
+    console.log('click me!');
+  };
+
   render() {
     const { className, ...props } = this.props;
     return (
       <div className={classNames(CLASS_NAME, className)} {...props}>
         <p>
-          <button className="icon-play">PLAY</button>
+          <button onClick={this._onClick} className="icon-play">
+            PLAY
+          </button>
         </p>
         <img src={require('assets/images/icon-play.png')} />
         <p>Hello React!!</p>

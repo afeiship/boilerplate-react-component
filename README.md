@@ -46,5 +46,5 @@ npm install -S afeiship/boilerplate-react-component
 - [ ] Add: semver number for every build files.
 - [ ] Add: need output css files.
 - [ ] Add: PWA support for docs.
-- [ ] Add: source.map file for dist.
+- [ ] Add: source.map file for dist(`you can upload for production debug`).
 - [ ] BUG: npm run dev will clean dist.
