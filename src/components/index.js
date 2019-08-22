@@ -34,7 +34,10 @@ export default class extends Component {
   render() {
     const { className, ...props } = this.props;
     return (
-      <div className={classNames(CLASS_NAME, className)} {...props}>
+      <div
+        data-component={CLASS_NAME}
+        className={classNames(CLASS_NAME, className)}
+        {...props}>
         <p>
           <button onClick={this._onClick} className="icon-play">
             PLAY
