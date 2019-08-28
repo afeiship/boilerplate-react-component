@@ -8,6 +8,8 @@ import objectAssign from 'object-assign';
 const CLASS_NAME = 'boilerplate-react-component';
 
 export default class extends Component {
+  static displayName = CLASS_NAME;
+
   /*===properties start===*/
   static propTypes = {
     className: PropTypes.string,
