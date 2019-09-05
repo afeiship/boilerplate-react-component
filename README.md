@@ -36,7 +36,7 @@ npm install -S afeiship/boilerplate-react-component
 ## documentation
 - https://afeiship.github.io/boilerplate-react-component/
 
-## resouces
+## resources
 - https://www.robinwieruch.de/minimal-react-webpack-babel-setup/
 - https://www.valentinog.com/blog/react-webpack-babel/
 - https://jestjs.io/docs/en/tutorial-react#snapshot-testing-with-mocks-enzyme-and-react-16
