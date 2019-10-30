@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ReactPagination from '../src/main';
+import BoilerplateReactCompnent from '../src/main';
 
 describe('Basic Test', () => {
   it('renders to document', () => {
