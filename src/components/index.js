@@ -26,7 +26,6 @@ export default class extends Component {
   constructor(inProps) {
     super(inProps);
     this.state = {};
-    console.log(require('assets/images/icon-play.png'));
   }
 
   _onClick = (e) => {
@@ -45,7 +44,6 @@ export default class extends Component {
             PLAY
           </button>
         </p>
-        <img src={require('assets/images/icon-play.png')} />
         <p>Hello React!!</p>
       </div>
     );
