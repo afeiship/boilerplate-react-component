@@ -51,6 +51,7 @@
     "express": "^4.16.4",
     "jest": "^24.5.0",
     "prettier": "^1.16.4",
+    "node-sass": "^4.12.0",
     "rake-git": "github:afeiship/rake-git",
     "react-testing-library": "^6.0.2",
     "webpack": "^4.29.6",
@@ -61,7 +62,6 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "node-sass": "^4.12.0",
     "noop": "github:afeiship/noop",
     "prop-types": "^15.7.2",
     "react": "^16.8.5",
