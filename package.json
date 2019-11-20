@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-component",
+  "name": "@feizheng/boilerplate-react-component",
   "version": "1.0.0",
   "description": "boilerplate-react-component-description",
   "main": "dist/index.js",

@@ -3,7 +3,7 @@
 
 ## install
 ```shell
-npm install -S afeiship/boilerplate-react-component
+npm install -S @feizheng/boilerplate-react-component
 ```
 
 ## usage
