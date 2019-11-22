@@ -9,8 +9,6 @@ const CLASS_NAME = 'boilerplate-react-component';
 
 export default class extends Component {
   static displayName = CLASS_NAME;
-
-  /*===properties start===*/
   static propTypes = {
     className: PropTypes.string,
     value: PropTypes.object,
@@ -21,7 +19,6 @@ export default class extends Component {
     value: null,
     onChange: noop
   };
-  /*===properties end===*/
 
   constructor(inProps) {
     super(inProps);

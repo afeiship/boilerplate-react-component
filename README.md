@@ -1,7 +1,7 @@
 # boilerplate-react-component
 > boilerplate-react-component-description
 
-## install
+## installation
 ```shell
 npm install -S @feizheng/boilerplate-react-component
 ```
