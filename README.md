@@ -5,11 +5,17 @@
 ```shell
 npm install -S @feizheng/boilerplate-react-component
 ```
+## properties
+| property        | type | description |
+| --------------- | ---- | ----------- |
+| className       | -    | -           |
+| value           | -    | -           |
+| onChange        | -    | -           |
 
 ## usage
 1. import css
   ```scss
-  @import "~boilerplate-react-component/style.scss";
+  @import "~@feizheng/boilerplate-react-component/dist/style.scss";
 
   // customize your styles:
   $boilerplate-react-component-options: ()
@@ -18,7 +24,7 @@ npm install -S @feizheng/boilerplate-react-component
   ```js
   import React from 'react';
   import ReactDOM from 'react-dom';
-  import BoilerplateReactComponent from 'boilerplate-react-component';
+  import BoilerplateReactComponent from '@feizheng/boilerplate-react-component';
   
   // your app:
   class App extends React.Component{
