@@ -5,12 +5,18 @@
 ```shell
 npm install -S @feizheng/boilerplate-react-component
 ```
+
+## update
+```shell
+npm update @feizheng/boilerplate-react-component
+```
+
 ## properties
-| property        | type | description |
-| --------------- | ---- | ----------- |
-| className       | -    | -           |
-| value           | -    | -           |
-| onChange        | -    | -           |
+| property  | type   | default | description |
+| --------- | ------ | ------- | ----------- |
+| className | String | -       | -           |
+| value     | -      | -       | -           |
+| onChange  | -      | -       | -           |
 
 ## usage
 1. import css
