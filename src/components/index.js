@@ -9,6 +9,7 @@ const CLASS_NAME = 'boilerplate-react-component';
 
 export default class extends Component {
   static displayName = CLASS_NAME;
+  static version = '__VERSION__';
   static propTypes = {
     className: PropTypes.string,
     value: PropTypes.object,
