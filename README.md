@@ -12,11 +12,12 @@ npm update @feizheng/boilerplate-react-component
 ```
 
 ## properties
-| property  | type   | default | description |
-| --------- | ------ | ------- | ----------- |
-| className | String | -       | -           |
-| value     | -      | -       | -           |
-| onChange  | -      | -       | -           |
+| Name      | Type   | Default | Description                           |
+| --------- | ------ | ------- | ------------------------------------- |
+| className | string | -       | The extended className for component. |
+| value     | object | null    | Default value.                        |
+| onChange  | func   | noop    | The change handler.                   |
+
 
 ## usage
 1. import css
@@ -26,23 +27,26 @@ npm update @feizheng/boilerplate-react-component
   // customize your styles:
   $boilerplate-react-component-options: ()
   ```
+
 2. import js
   ```js
-  import React from 'react';
+  import BoilerplateReactComponent from '../src/main';
   import ReactDOM from 'react-dom';
-  import BoilerplateReactComponent from '@feizheng/boilerplate-react-component';
-  
-  // your app:
-  class App extends React.Component{
-    render(){
+  import React from 'react';
+  import './assets/style.scss';
+
+  class App extends React.Component {
+    componentDidMount() {}
+    render() {
       return (
-        <BoilerplateReactComponent />
-      )
+        <div className="app-container">
+          <BoilerplateReactComponent />
+        </div>
+      );
     }
   }
 
-  // render to dom:
-  ReactDOM.render(<App/>, document.getElementById('app'));
+  ReactDOM.render(<App />, document.getElementById('app'));
   ```
 
 ## documentation

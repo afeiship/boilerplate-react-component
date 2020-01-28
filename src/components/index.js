@@ -7,12 +7,21 @@ import objectAssign from 'object-assign';
 
 const CLASS_NAME = 'boilerplate-react-component';
 
-export default class extends Component {
+export default class BoilerplateReactComponent extends Component {
   static displayName = CLASS_NAME;
   static version = '__VERSION__';
   static propTypes = {
+    /**
+     * The extended className for component.
+     */
     className: PropTypes.string,
+    /**
+     * Default value.
+     */
     value: PropTypes.object,
+    /**
+     * The change handler.
+     */
     onChange: PropTypes.func
   };
 
