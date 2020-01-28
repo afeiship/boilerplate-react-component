@@ -4,10 +4,10 @@
   "description": "boilerplate-react-component-description",
   "main": "dist/index.js",
   "scripts": {
-    "predocs": "node build/markdown.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env.type=dev",
     "build": "cross-env NODE_ENV=production webpack -p --env.type=build",
     "release": "cross-env NODE_ENV=production webpack -p --env.type=release",
+    "predocs": "node build/markdown.js",
     "docs": "cross-env NODE_ENV=production webpack -p --env.type=docs",
     "start": "node build/server.js",
     "test": "jest"
