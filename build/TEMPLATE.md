@@ -16,18 +16,16 @@ __GENERATE_DOCS__
 
 ## usage
 1. import css
+  ```scss
+  @import "~@feizheng/boilerplate-react-component/dist/style.scss";
 
-```scss
-@import "~@feizheng/boilerplate-react-component/dist/style.scss";
-
-// customize your styles:
-$boilerplate-react-component-options: ()
-```
+  // customize your styles:
+  $boilerplate-react-component-options: ()
+  ```
 2. import js
-
-```js
+  ```js
 __GENERATE_DAPP__
-```
+  ```
 
 ## documentation
 - https://afeiship.github.io/boilerplate-react-component/

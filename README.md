@@ -27,10 +27,9 @@ npm update @feizheng/boilerplate-react-component
   // customize your styles:
   $boilerplate-react-component-options: ()
   ```
-
 2. import js
   ```js
-  import BoilerplateReactComponent from '../src/main';
+  import BoilerplateReactComponent from '@feizheng/boilerplate-react-component';
   import ReactDOM from 'react-dom';
   import React from 'react';
   import './assets/style.scss';
@@ -47,6 +46,7 @@ npm update @feizheng/boilerplate-react-component
   }
 
   ReactDOM.render(<App />, document.getElementById('app'));
+
   ```
 
 ## documentation
