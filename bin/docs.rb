@@ -38,6 +38,8 @@ class DocApp
   def set_doc
     del
     create
+
+    puts "Has set master/docs to gh-pages!"
   end
 end
 
