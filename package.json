@@ -49,6 +49,7 @@
     "@feizheng/next-replace-in-file": "^1.0.0",
     "@feizheng/rake-git": "^1.2.0",
     "@feizheng/react-markdown-props": "^1.1.0",
+    "@feizheng/webpack-lib-kits": "^1.1.9",
     "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
     "enzyme": "^3.10.0",
@@ -71,7 +72,6 @@
   },
   "dependencies": {
     "@feizheng/noop": "^1.0.0",
-    "@feizheng/webpack-lib-kits": "^1.1.9",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2"
   },
