@@ -9,6 +9,7 @@
     "release": "cross-env NODE_ENV=production webpack -p --env.type=release",
     "predocs": "node build/markdown.js",
     "docs": "cross-env NODE_ENV=production webpack -p --env.type=docs",
+    "pages": "./bin/docs.rb",
     "start": "node build/server.js",
     "test": "jest"
   },
