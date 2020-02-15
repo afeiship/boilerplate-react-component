@@ -43,5 +43,6 @@ class DocApp
   end
 end
 
+# start app:
 app = DocApp.new
 app.set_doc
