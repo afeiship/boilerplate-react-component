@@ -4,11 +4,10 @@
   "description": "boilerplate-react-component-description",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --env.type=dev",
-    "build": "cross-env NODE_ENV=production webpack -p --env.type=build",
-    "release": "cross-env NODE_ENV=production webpack -p --env.type=release",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack -p",
     "predocs": "node build/markdown.js",
-    "docs": "cross-env NODE_ENV=production webpack -p --env.type=docs",
+    "docs": "cross-env NODE_ENV=docs webpack -p",
     "pages": "./bin/docs.rb",
     "start": "node build/server.js",
     "test": "jest"
@@ -49,7 +48,7 @@
     "@feizheng/next-replace-in-file": "^1.0.1",
     "@feizheng/rake-git": "^1.2.1",
     "@feizheng/react-markdown-props": "^1.2.0",
-    "@feizheng/webpack-lib-kits": "^1.1.9",
+    "@feizheng/webpack-lib-kits": "^1.1.10",
     "babel-loader": "^8.0.6",
     "cross-env": "^7.0.0",
     "enzyme": "^3.11.0",
