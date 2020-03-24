@@ -67,7 +67,8 @@
   },
   "peerDependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "antd": "^4.0.4"
   },
   "dependencies": {
     "@feizheng/noop": "^1.0.0",
