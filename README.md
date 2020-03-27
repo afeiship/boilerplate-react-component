@@ -12,11 +12,11 @@ npm update @feizheng/boilerplate-react-component
 ```
 
 ## properties
-| Name      | Type   | Default | Description                           |
-| --------- | ------ | ------- | ------------------------------------- |
-| className | string | -       | The extended className for component. |
-| value     | object | null    | Default value.                        |
-| onChange  | func   | noop    | The change handler.                   |
+| Name      | Type   | Required | Default | Description                           |
+| --------- | ------ | -------- | ------- | ------------------------------------- |
+| className | string | false    | -       | The extended className for component. |
+| value     | object | false    | null    | Default value.                        |
+| onChange  | func   | false    | noop    | The change handler.                   |
 
 
 ## usage

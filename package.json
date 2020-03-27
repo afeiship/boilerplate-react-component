@@ -47,7 +47,7 @@
     "@babel/register": "^7.9.0",
     "@feizheng/next-replace-in-file": "^1.0.1",
     "@feizheng/rake-git": "^1.2.1",
-    "@feizheng/react-markdown-props": "^1.2.0",
+    "@feizheng/react-markdown-props": "^1.2.1",
     "@feizheng/webpack-lib-kits": "^1.1.10",
     "@testing-library/react": "^10.0.1",
     "babel-loader": "^8.1.0",
