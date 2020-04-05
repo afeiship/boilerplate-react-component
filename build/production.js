@@ -14,9 +14,9 @@ export default merge(baseConfig, {
   output: outputs.build({
     library: 'BoilerplateReactComponent'
   }),
-  externals: externals.base({
-    '@feizheng/noop': '@feizheng/noop',
-    antd: 'antd'
-  }),
-  plugins: [plugins.clean(), plugins.copyStyles()]
+  externals: externals.node(),
+  plugins: [
+    plugins.clean(),
+    plugins.copyStyles()
+  ]
 });
