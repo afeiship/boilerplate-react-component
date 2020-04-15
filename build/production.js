@@ -14,6 +14,7 @@ export default merge(baseConfig, {
   output: outputs.build({
     library: 'BoilerplateReactComponent'
   }),
+  devtool: 'source-map',
   externals: externals.node(),
   plugins: [
     plugins.clean(),
