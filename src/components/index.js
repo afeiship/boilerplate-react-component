@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import noop from '@feizheng/noop';
-import objectAssign from 'object-assign';
 
 const CLASS_NAME = 'boilerplate-react-component';
 
@@ -30,12 +29,7 @@ export default class BoilerplateReactComponent extends Component {
     onChange: noop
   };
 
-  constructor(inProps) {
-    super(inProps);
-    this.state = {};
-  }
-
-  _onClick = (e) => {
+  handleClick = (inEvent) => {
     console.log('click me!');
   };
 
@@ -47,11 +41,10 @@ export default class BoilerplateReactComponent extends Component {
         className={classNames(CLASS_NAME, className)}
         {...props}>
         <p>
-          <button onClick={this._onClick} className="icon-play">
+          <button onClick={this.handleClick} className="icon-play">
             PLAY
           </button>
         </p>
-        <p>Hello React!!</p>
       </div>
     );
   }
