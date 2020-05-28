@@ -3,12 +3,12 @@
 
 ## installation
 ```shell
-npm install -S @feizheng/boilerplate-react-component
+npm install -S @boilerplate-scope/boilerplate-react-component
 ```
 
 ## update
 ```shell
-npm update @feizheng/boilerplate-react-component
+npm update @boilerplate-scope/boilerplate-react-component
 ```
 
 ## properties
@@ -22,14 +22,14 @@ npm update @feizheng/boilerplate-react-component
 ## usage
 1. import css
   ```scss
-  @import "~@feizheng/boilerplate-react-component/dist/style.scss";
+  @import "~@boilerplate-scope/boilerplate-react-component/dist/style.scss";
 
   // customize your styles:
   $boilerplate-react-component-options: ()
   ```
 2. import js
   ```js
-  import BoilerplateReactComponent from '@feizheng/boilerplate-react-component';
+  import BoilerplateReactComponent from '@boilerplate-scope/boilerplate-react-component';
   import ReactDOM from 'react-dom';
   import React from 'react';
   import './assets/style.scss';
