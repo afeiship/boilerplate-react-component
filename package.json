@@ -80,6 +80,7 @@
     "prop-types": "^15.7.2"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }
