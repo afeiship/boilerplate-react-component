@@ -51,7 +51,7 @@
     "@feizheng/rake-git": "^1.2.1",
     "@feizheng/react-markdown-props": "^1.2.3",
     "@feizheng/webpack-lib-kits": "^1.1.28",
-    "@testing-library/react": "^11.0.0",
+    "@testing-library/react": "^11.0.1",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
     "cross-env": "^7.0.2",
