@@ -13,7 +13,7 @@ export default merge(baseConfig, {
     library: 'BoilerplateReactComponent'
   }),
   devtool: 'source-map',
-  externals: externals.base(),
+  externals: externals.node(),
   plugins: [
     plugins.banner(),
     plugins.clean(),
