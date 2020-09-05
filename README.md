@@ -20,7 +20,7 @@ npm update @boilerplate-scope/boilerplate-react-component
 | Name      | Type   | Required | Default | Description                           |
 | --------- | ------ | -------- | ------- | ------------------------------------- |
 | className | string | false    | -       | The extended className for component. |
-| value     | object | false    | null    | Default value.                        |
+| value     | object | false    | null    | The changed value.                    |
 | onChange  | func   | false    | noop    | The change handler.                   |
 
 
@@ -34,17 +34,28 @@ npm update @boilerplate-scope/boilerplate-react-component
   ```
 2. import js
   ```js
-  import BoilerplateReactComponent from '@feizheng/boilerplate-react-component';
-  import ReactDOM from 'react-dom';
+  import NxOfflineSw from '@feizheng/next-offline-sw';
+  import ReactSwUpdateTips from '@feizheng/react-sw-update-tips';
   import React from 'react';
+  import ReactDOM from 'react-dom';
+  import BoilerplateReactComponent from '@feizheng/boilerplate-react-component';
   import './assets/style.scss';
 
   class App extends React.Component {
-    componentDidMount() {}
+    state = { hasUpdate: false };
+
+    componentDidMount() {
+      NxOfflineSw.install({
+        onUpdateReady: () => {
+          this.setState({ hasUpdate: true });
+        }
+      });
+    }
     render() {
       return (
         <div className="app-container">
           <BoilerplateReactComponent />
+          <ReactSwUpdateTips value={this.state.hasUpdate} />
         </div>
       );
     }

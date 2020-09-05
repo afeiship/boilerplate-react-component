@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import noop from '@feizheng/noop';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 
 const CLASS_NAME = 'boilerplate-react-component';
 
@@ -15,7 +14,7 @@ export default class BoilerplateReactComponent extends Component {
      */
     className: PropTypes.string,
     /**
-     * Default value.
+     * The changed value.
      */
     value: PropTypes.object,
     /**
@@ -29,7 +28,7 @@ export default class BoilerplateReactComponent extends Component {
     onChange: noop
   };
 
-  handleClick = (inEvent) => {
+  handleClick = () => {
     console.log('click me!');
   };
 
