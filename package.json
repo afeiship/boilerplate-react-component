@@ -50,7 +50,7 @@
     "@feizheng/next-offline-sw": "^1.0.2",
     "@feizheng/next-replace-in-file": "^1.0.1",
     "@feizheng/rake-git": "^1.2.1",
-    "@feizheng/react-github-corner": "^1.0.0",
+    "@feizheng/react-github-corner": "^1.0.1",
     "@feizheng/react-markdown-props": "^1.2.3",
     "@feizheng/react-sw-update-tips": "^1.0.4",
     "@feizheng/webpack-lib-kits": "^1.1.28",
