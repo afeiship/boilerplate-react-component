@@ -1,4 +1,5 @@
 import NxOfflineSw from '@feizheng/next-offline-sw';
+import ReactGithubCorner from '@feizheng/react-github-corner';
 import ReactSwUpdateTips from '@feizheng/react-sw-update-tips';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -22,6 +23,7 @@ class App extends React.Component {
         <BoilerplateReactComponent className="bg-gray-800 mb-5 text-white" />
         <button className="button">I am a button</button>
         <ReactSwUpdateTips value={this.state.hasUpdate} />
+        <ReactGithubCorner value="https://github.com/afeiship/boilerplate-react-component" />
       </div>
     );
   }
