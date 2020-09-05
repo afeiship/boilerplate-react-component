@@ -18,7 +18,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="app-container">
-        <BoilerplateReactComponent />
+        <BoilerplateReactComponent
+          style={{ width: '100%', display: 'block', marginBottom: 10 }}
+        />
+        <button className="button">I am a button</button>
         <ReactSwUpdateTips value={this.state.hasUpdate} />
       </div>
     );

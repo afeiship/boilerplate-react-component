@@ -40,7 +40,10 @@ export default class BoilerplateReactComponent extends Component {
         className={classNames(CLASS_NAME, className)}
         {...props}>
         <p>
-          <button onClick={this.handleClick} className="icon-play">
+          <button
+            style={{ padding: 20, width: '100%' }}
+            onClick={this.handleClick}
+            className="icon-play">
             PLAY
           </button>
         </p>
