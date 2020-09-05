@@ -10,6 +10,8 @@ body,
 }
 
 @import "@/components/style.scss";
+@import "~@feizheng/react-sw-update-tips/dist/style.scss";
+
 
 .app-container {
   padding: 50px;
