@@ -20,8 +20,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="p-3 app-container">
+        {/* Core components usage start */}
         <BoilerplateReactComponent className="bg-gray-800 mb-5 text-white" />
         <button className="button">I am a button</button>
+        {/* Core components usage end */}
         <ReactSwUpdateTips value={this.state.hasUpdate} />
         <ReactGithubCorner value="https://github.com/afeiship/boilerplate-react-component" />
       </div>
