@@ -44,7 +44,7 @@ export default class BoilerplateReactComponent extends Component {
             style={{ padding: 20, width: '100%' }}
             onClick={this.handleClick}
             className="icon-play">
-            PLAY
+            Enjoy coding.
           </button>
         </p>
       </div>
