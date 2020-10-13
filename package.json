@@ -49,7 +49,7 @@
     "@babel/register": "^7.11.5",
     "@feizheng/next-replace-in-file": "^1.0.1",
     "@feizheng/rake-git": "^1.2.1",
-    "@feizheng/react-demokit": "^1.0.0",
+    "@feizheng/react-demokit": "^1.0.5",
     "@feizheng/react-markdown-props": "^1.2.3",
     "@feizheng/webpack-lib-kits": "^1.1.28",
     "@testing-library/react": "^11.0.4",
