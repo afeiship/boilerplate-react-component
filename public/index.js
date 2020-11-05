@@ -10,8 +10,8 @@ class App extends React.Component {
       <ReactDemokit
         className="p-3 app-container"
         url="https://github.com/afeiship/boilerplate-react-component">
-        <BoilerplateReactComponent className="bg-gray-800 mb-5 text-white" />
-        <button className="button">Start~</button>
+        <BoilerplateReactComponent className="mb-5 has-text-white" />
+        <button className="button is-primary is-fullwidth">Start~</button>
       </ReactDemokit>
     );
   }
