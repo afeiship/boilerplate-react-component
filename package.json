@@ -21,7 +21,15 @@
   "keywords": [
     "boilerplate",
     "react",
-    "component"
+    "component",
+    "cra",
+    "template",
+    "webpack",
+    "sass",
+    "scss",
+    "docs",
+    "service-worker",
+    "sw"
   ],
   "author": "afei",
   "license": "MIT",
