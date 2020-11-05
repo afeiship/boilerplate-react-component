@@ -2,4 +2,9 @@ $boilerplate-react-component-options: () !default;
 
 .boilerplate-react-component {
   // your styles
+  color: red;
+  font-size: 12px;
+  &:active {
+    color: black;
+  }
 }

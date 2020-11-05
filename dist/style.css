@@ -1,0 +1,5 @@
+.boilerplate-react-component {
+  color: red;
+  font-size: 12px; }
+  .boilerplate-react-component:active {
+    color: black; }
