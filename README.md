@@ -11,11 +11,6 @@
 npm install -S @boilerplate-scope/boilerplate-react-component
 ```
 
-## update
-```shell
-npm update @boilerplate-scope/boilerplate-react-component
-```
-
 ## properties
 | Name      | Type   | Required | Default | Description                           |
 | --------- | ------ | -------- | ------- | ------------------------------------- |
