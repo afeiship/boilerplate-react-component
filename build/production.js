@@ -10,7 +10,7 @@ import baseConfig from './base';
 export default merge(baseConfig, {
   entry: inputs.build(),
   output: outputs.build({
-    library: 'BoilerplateReactComponent'
+    library: 'BoilerplateReactJsComponent'
   }),
   devtool: 'source-map',
   externals: externals.node(),

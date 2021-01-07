@@ -1,5 +1,5 @@
-# boilerplate-react-component
-> boilerplate-react-component-description
+# boilerplate-react-js-component
+> boilerplate-react-js-component-description
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -8,7 +8,7 @@
 
 ## installation
 ```shell
-npm install -S @boilerplate-scope/boilerplate-react-component
+npm install -S @boilerplate-scope/boilerplate-react-js-component
 ```
 
 ## properties
@@ -22,20 +22,20 @@ npm install -S @boilerplate-scope/boilerplate-react-component
 ## usage
 1. import css
   ```scss
-  @import "~@boilerplate-scope/boilerplate-react-component/dist/style.css";
+  @import "~@boilerplate-scope/boilerplate-react-js-component/dist/style.css";
 
   // or use sass
-  @import "~@boilerplate-scope/boilerplate-react-component/dist/style.scss";
+  @import "~@boilerplate-scope/boilerplate-react-js-component/dist/style.scss";
 
   // customize your styles:
-  $boilerplate-react-component-options: ()
+  $boilerplate-react-js-component-options: ()
   ```
 2. import js
   ```js
   import ReactDemokit from '@jswork/react-demokit';
   import React from 'react';
   import ReactDOM from 'react-dom';
-  import BoilerplateReactComponent from '@jswork/boilerplate-react-component';
+  import BoilerplateReactJsComponent from '@jswork/boilerplate-react-js-component';
   import './assets/style.scss';
 
   class App extends React.Component {
@@ -43,8 +43,8 @@ npm install -S @boilerplate-scope/boilerplate-react-component
       return (
         <ReactDemokit
           className="p-3 app-container"
-          url="https://github.com/afeiship/boilerplate-react-component">
-          <BoilerplateReactComponent className="mb-5 has-text-white" />
+          url="https://github.com/afeiship/boilerplate-react-js-component">
+          <BoilerplateReactJsComponent className="mb-5 has-text-white" />
           <button className="button is-primary is-fullwidth">Start~</button>
         </ReactDemokit>
       );
@@ -56,20 +56,20 @@ npm install -S @boilerplate-scope/boilerplate-react-component
   ```
 
 ## documentation
-- https://afeiship.github.io/boilerplate-react-component/
+- https://afeiship.github.io/boilerplate-react-js-component/
 
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/boilerplate-react-component/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/boilerplate-react-js-component/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/boilerplate-react-component
-[version-url]: https://npmjs.org/package/@jswork/boilerplate-react-component
+[version-image]: https://img.shields.io/npm/v/@jswork/boilerplate-react-js-component
+[version-url]: https://npmjs.org/package/@jswork/boilerplate-react-js-component
 
-[license-image]: https://img.shields.io/npm/l/@jswork/boilerplate-react-component
-[license-url]: https://github.com/afeiship/boilerplate-react-component/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/boilerplate-react-js-component
+[license-url]: https://github.com/afeiship/boilerplate-react-js-component/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/boilerplate-react-component
-[size-url]: https://github.com/afeiship/boilerplate-react-component/blob/master/dist/boilerplate-react-component.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/boilerplate-react-js-component
+[size-url]: https://github.com/afeiship/boilerplate-react-js-component/blob/master/dist/boilerplate-react-js-component.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/boilerplate-react-component
-[download-url]: https://www.npmjs.com/package/@jswork/boilerplate-react-component
+[download-image]: https://img.shields.io/npm/dm/@jswork/boilerplate-react-js-component
+[download-url]: https://www.npmjs.com/package/@jswork/boilerplate-react-js-component

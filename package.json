@@ -1,7 +1,7 @@
 {
-  "name": "@boilerplate-scope/boilerplate-react-component",
+  "name": "@boilerplate-scope/boilerplate-react-js-component",
   "version": "1.0.0",
-  "description": "boilerplate-react-component-description",
+  "description": "boilerplate-react-js-component-description",
   "main": "dist/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/boilerplate-react-component.git"
+    "url": "git+https://github.com/afeiship/boilerplate-react-js-component.git"
   },
   "keywords": [
     "boilerplate",
@@ -47,9 +47,9 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/afeiship/boilerplate-react-component/issues"
+    "url": "https://github.com/afeiship/boilerplate-react-js-component/issues"
   },
-  "homepage": "https://github.com/afeiship/boilerplate-react-component#readme",
+  "homepage": "https://github.com/afeiship/boilerplate-react-js-component#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",

@@ -1,2 +1,2 @@
-import BoilerplateReactComponent from './components';
-export default BoilerplateReactComponent;
+import BoilerplateReactJsComponent from './components';
+export default BoilerplateReactJsComponent;

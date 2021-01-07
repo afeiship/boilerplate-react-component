@@ -3,9 +3,9 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
-const CLASS_NAME = 'boilerplate-react-component';
+const CLASS_NAME = 'boilerplate-react-js-component';
 
-export default class BoilerplateReactComponent extends Component {
+export default class BoilerplateReactJsComponent extends Component {
   static displayName = CLASS_NAME;
   static version = '__VERSION__';
   static propTypes = {
